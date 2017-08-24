@@ -10,6 +10,9 @@
   <link href="<?= base_url();?>css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+  <navbar>
+    <?= $user_navbar;?>
+  </navbar>
 
   <h3>HI <?= $u_name;?> !</h3>
   <a class="btn btn-danger" href="<?= base_url();?>user_home/logout">Logout</a>
@@ -25,7 +28,7 @@
 
 
 
-  
+
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="<?= base_url();?>js/jquery.js"></script>
     <script src="<?= base_url();?>js/bootstrap.js"></script>

@@ -14,6 +14,7 @@ class User_home extends CI_Controller {
     $data = array();
 		$data['variable1']= "user dashboard";
     $data['u_name']= $this->session->userdata('u_name');
+    $data['user_navbar']= $this->load->view('user/user_navbar_view',$data,true);;
 		$data['u_home_content']=$this->load->view('user/user_home_content',$data,true);
 
 		$this->load->view('user/user_home_v',$data);
