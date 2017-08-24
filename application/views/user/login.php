@@ -3,10 +3,8 @@
   if(!empty($this->session->userdata('error'))){
     $errors = $this->session->userdata('error');
     $this->session->unset_userdata('error');
-    echo "asdsad";
   }
 ?>
-
 
 <div class="col-md-4 col-md-offset-4">
   <form class="form-group" action="<?= base_url('welcome/login_check');?>" method="post">
