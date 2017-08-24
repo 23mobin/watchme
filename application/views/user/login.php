@@ -3,6 +3,7 @@
   if(!empty($this->session->userdata('error'))){
     $errors = $this->session->userdata('error');
     $this->session->unset_userdata('error');
+    echo "asdsad";
   }
 ?>
 
