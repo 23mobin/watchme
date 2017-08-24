@@ -4,9 +4,8 @@ class Welcome extends CI_Controller {
 	public function __construct(){
 		parent::__construct();
 		$u_id = $this->session->userdata('u_id');
-		echo $u_id;
 		if ($u_id != NULL) {
-			redirect('user_home','refresh');
+			redirect('user_home');
 		}
 	}
 
