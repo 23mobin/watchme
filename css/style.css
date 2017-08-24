@@ -1,0 +1,13 @@
+.fb-blue{
+  background-color: #3B5998;
+}
+
+.fb-blue a{
+  text-decoration: none;
+  color: white;
+}
+.fb-blue li:hover{
+  text-decoration: none;
+  color: white;
+  background-color: #3B5998 !important;
+}

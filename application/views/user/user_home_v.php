@@ -15,7 +15,7 @@
   </navbar>
 
   <h3>HI <?= $u_name;?> !</h3>
-  <a class="btn btn-danger" href="<?= base_url();?>user_home/logout">Logout</a>
+  
   <br>
   <?= $u_home_content;?>
 
