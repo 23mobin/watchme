@@ -1,5 +1,5 @@
 
-<nav class="navbar  fb-blue ">
+<nav class="navbar navbar-fixed-top fb-blue ">
   <div class="container text-secondary">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
