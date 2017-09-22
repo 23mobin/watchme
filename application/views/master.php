@@ -94,10 +94,10 @@
 			</div>
 		</div>
 </article>
-<footer class="container">
+<footer class=" "class="container text-centre bg-danger ">
 <hr>
 <div class="footer-options">
-<ul >
+<!-- <ul >
 	<li><a href="#">Mobile</li>
 	<li><a href="#">Find Friends</li>
 	<li><a href="#">Badges</li>
@@ -107,10 +107,12 @@
 	<li><a href="#">Games</a></li>
 	<li><a href="#">Locations</a></li>
 	<li><a href="#">About</a></li>
-</ul>
+</ul> -->
+<button class ="btn btn-default btn-icon btn-circle">asedasd</button>
 </div>
-<div style="clear:both"></div>
-<small class="copyrights"> © Copyrights reserved  2014</small>
+
+
+<small > © Copyrights reserved  2014</small>
 </footer>
 
 
